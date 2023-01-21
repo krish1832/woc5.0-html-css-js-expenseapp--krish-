@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: "Audiowide";
+        }
+    .heading{
+       font-family:"Trirong", serif;
+       font-size: 50px;
+       text-align: center;
+       font-weight: bold;
+    }
+   
+    .right ul li{
+        display: inline-block;
+    }
+    .right1{
+        text-align: center;
+    }
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 10px;
+        border: 1px solid white;
+        border-radius:5px;  
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo';
+    }
+    
+    .btn:hover {
+        background-color: rgb(55, 53, 53);
+    }
+    .btn2{
+        background-color: black;
+        color:white;
+        margin-left:23px ;
+        cursor: pointer;
+    }
+    .form{
+        padding-left:115px ;
+
+    }
+    .new{
+        display: inline-block;
+        margin-left:77px ;
+        font-size: 25px;
+        font-weight: bold;
+        padding:35px;
+    }
+    .container{
+        display: inline-block;
+        border: 3px solid white;
+        border-color: black;
+        background-color: white;
+        border-radius: 8px;
+        padding: 44px;
+        padding-right: 90px;
+        padding-bottom:33px;
+    }
+    .i1{
+        padding:7px ;
+        margin: 2px;
+    }
+    </style>
+<body>
+    <header class="header">
+        <div class="heading">
+                   Your Expenses
+        </div>
+        <div class="right">
+            <ul class="right1">
+                <li><button class="btn">Home</button></li>
+                <li><button class="btn" >About Us</button></li>
+                <li><button class="btn">Past month expenses</button></li>
+                <li><button class="btn">Net expenses</button></li>
+                <li><button class="btn">savings</button></li>
+            </ul>
+        </div>
+        <div class="container">
+        <div class="new">Enter your expenses</div>
+<div>
+    <form class="form">
+        <input type="text" placeholder="1st expense" id="text" class="i1"><b class="fa-solid fa-plus">+<br>
+        <input type="text" placeholder="2nd expense" id="text" class="i1"><b class="fa-solid fa-plus">+<br>
+        <input type="text" placeholder="3rd expense" id="text" class="i1"><b class="fa-solid fa-plus">+<br>
+        <input type="text" placeholder="4th expense" id="text" class="i1"><b class="fa-solid fa-plus">+<br><br>
+       <button class="btn2  ">submit</button>
+    </form>
+    </div>
+</div>
+       
+</body>
+</html>
